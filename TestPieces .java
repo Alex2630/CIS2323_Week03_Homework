@@ -1,5 +1,15 @@
 public class TestPieces { 
 	public static void main(String[] args){
-	//test piece 1,2 go in this space wait for class to see how too
+	ChessPiece Piece= new ChessPiece();
+		Piece.setPosition( 4,3);
+		Piece.setColor("white");
+		Piece.setType("queen");
+		Piece.pieceInfo();
+	
+	ChessPiece Piece= new ChessPiece();
+		Piece.setPosition( 3,2);
+		Piece.setColor("black");
+		Piece.setType("pawn");
+		Piece.pieceInfo();
 	}
 }
